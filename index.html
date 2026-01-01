@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda Estoica 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>📖 Agenda Estoica 2026</h1>
+        <p class="subtitle">Estoicismo Diario</p>
+      </header>
+
+      <nav class="main-nav">
+        <button id="prev-month" class="nav-btn">← Mês Anterior</button>
+        <h2 id="current-month-year"></h2>
+        <button id="next-month" class="nav-btn">Próximo Mês →</button>
+      </nav>
+
+      <!-- Introdução Mensal do Conceito Estoico -->
+      <section id="monthly-concept" class="monthly-concept">
+        <div class="concept-card">
+          <h2 id="concept-title"></h2>
+          <div id="concept-content" class="concept-text"></div>
+        </div>
+      </section>
+
+      <!-- Resumo Mensal -->
+      <section
+        id="monthly-summary"
+        class="monthly-summary"
+        style="display: none"
+      >
+        <div class="summary-card">
+          <h2>📊 Resumo do Mês</h2>
+          <div class="summary-section">
+            <h3>🙏 Gratidões do Mês</h3>
+            <ul id="summary-gratitudes"></ul>
+          </div>
+          <div class="summary-section">
+            <h3>🌱 Pontos de Melhoria</h3>
+            <ul id="summary-improvements"></ul>
+          </div>
+          <button id="close-summary" class="btn-primary">
+            Voltar à Agenda
+          </button>
+        </div>
+      </section>
+
+      <!-- Calendário do Mês -->
+      <section id="calendar-view" class="calendar-view">
+        <div id="calendar-grid" class="calendar-grid"></div>
+      </section>
+
+      <!-- Visualização do Dia -->
+      <section id="day-view" class="day-view" style="display: none">
+        <div class="day-card">
+          <div class="day-header">
+            <button id="back-to-calendar" class="nav-btn">
+              ← Voltar ao Calendário
+            </button>
+            <h2 id="day-title"></h2>
+          </div>
+
+          <!-- Citação Estoica do Dia -->
+          <div class="daily-quote">
+            <blockquote id="daily-quote-text"></blockquote>
+            <cite id="daily-quote-author"></cite>
+          </div>
+
+          <!-- Manhã: Gratidão -->
+          <div class="section morning-section">
+            <h3>🌅 Manhã - Três Motivos de Gratidão</h3>
+            <div class="input-group">
+              <textarea
+                id="gratitude-1"
+                placeholder="1. Gratidão..."
+              ></textarea>
+              <textarea
+                id="gratitude-2"
+                placeholder="2. Gratidão..."
+              ></textarea>
+              <textarea
+                id="gratitude-3"
+                placeholder="3. Gratidão..."
+              ></textarea>
+            </div>
+          </div>
+
+          <!-- Alvo Diário -->
+          <div class="section goal-section">
+            <h3>🎯 Alvo Diário</h3>
+            <textarea
+              id="daily-goal"
+              placeholder="Qual é o seu objetivo principal para hoje?"
+            ></textarea>
+          </div>
+
+          <!-- Noite: Melhorias -->
+          <div class="section evening-section">
+            <h3>🌙 Noite - Três Pontos para Melhorar</h3>
+            <div class="input-group">
+              <textarea
+                id="improvement-1"
+                placeholder="1. O que posso melhorar..."
+              ></textarea>
+              <textarea
+                id="improvement-2"
+                placeholder="2. O que posso melhorar..."
+              ></textarea>
+              <textarea
+                id="improvement-3"
+                placeholder="3. O que posso melhorar..."
+              ></textarea>
+            </div>
+          </div>
+
+          <button id="save-day" class="btn-primary">💾 Salvar Dia</button>
+        </div>
+      </section>
+
+      <footer>
+        <button id="view-summary" class="btn-secondary">
+          📊 Ver Resumo do Mês
+        </button>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
