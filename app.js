@@ -5,25 +5,25 @@ const monthlyConceptsData = {
   0: {
     // Janeiro
     title: "Virtude como o Bem Supremo",
-    content: `A virtude é o único bem verdadeiro segundo os estoicos. Neste mês, reflita sobre as quatro virtudes cardeais: 
+    content: `A virtude é o único bem verdadeiro segundo os estoicos.  Neste mês, reflita sobre as quatro virtudes cardeais: 
     <br><br><strong>Sabedoria (Sophia):</strong> Discernimento e conhecimento do que é bom, mau e indiferente. 
-    <br><strong>Coragem (Andreia):</strong> Força para enfrentar adversidades e fazer o que é certo.
+    <br><strong>Coragem (Andreia):</strong> Força para enfrentar adversidades e fazer o que é certo. 
     <br><strong>Justiça (Dikaiosyne):</strong> Tratar os outros com equidade e viver em harmonia com a sociedade.
     <br><strong>Temperança (Sophrosyne):</strong> Autocontrole e moderação em todas as coisas.`
   },
   1: {
     // Fevereiro
     title: "Dicotomia do Controle",
-    content: `O princípio fundamental do estoicismo:  distinguir entre o que está sob nosso controle e o que não está. 
-    <br><br><strong>Sob nosso controle:</strong> Nossos pensamentos, opiniões, desejos e ações.
-    <br><strong>Fora do nosso controle:</strong> O passado, o futuro, opiniões alheias, eventos externos. 
+    content: `O princípio fundamental do estoicismo:  distinguir entre o que está sob nosso controle e o que não está.  
+    <br><br><strong>Sob nosso controle:</strong> Nossos pensamentos, opiniões, desejos e ações. 
+    <br><strong>Fora do nosso controle:</strong> O passado, o futuro, opiniões alheias, eventos externos.  
     <br><br>Foque sua energia apenas no que você pode controlar e aceite o resto com serenidade.`
   },
   2: {
     // Março
     title: "Memento Mori",
-    content: `"Lembre-se de que você vai morrer" não é mórbido, mas libertador. 
-    <br><br>A consciência da nossa mortalidade nos ajuda a: 
+    content:  `"Lembre-se de que você vai morrer" não é mórbido, mas libertador. 
+    <br><br>A consciência da nossa mortalidade nos ajuda a:  
     <br>• Valorizar o tempo presente
     <br>• Priorizar o que realmente importa
     <br>• Não adiar decisões importantes
@@ -33,17 +33,17 @@ const monthlyConceptsData = {
   3: {
     // Abril
     title: "Amor Fati",
-    content: `"Amor ao destino" - não apenas aceitar, mas abraçar tudo que acontece.
-    <br><br>Os estoicos nos ensinam a amar nosso destino, vendo cada obstáculo como uma oportunidade de crescimento.
+    content: `"Amor ao destino" - não apenas aceitar, mas abraçar tudo que acontece. 
+    <br><br>Os estoicos nos ensinam a amar nosso destino, vendo cada obstáculo como uma oportunidade de crescimento. 
     <br><br>"Não busque que as coisas aconteçam como você quer, mas queira que aconteçam como acontecem, e você será feliz." - Epicteto
     <br><br>Este mês, pratique transformar obstáculos em oportunidades. `
   },
   4: {
     // Maio
     title: "A Vida Presente",
-    content: `O presente é tudo o que temos. O passado não existe mais e o futuro ainda não chegou.
+    content: `O presente é tudo o que temos. O passado não existe mais e o futuro ainda não chegou. 
     <br><br>Marco Aurélio escreveu: "Confine-se ao presente."
-    <br><br>Práticas para viver o presente:
+    <br><br>Práticas para viver o presente: 
     <br>• Atenção plena nas tarefas diárias
     <br>• Não ruminar sobre o passado
     <br>• Não se preocupar excessivamente com o futuro
@@ -52,9 +52,9 @@ const monthlyConceptsData = {
   5: {
     // Junho
     title: "Cosmopolitismo",
-    content: `Os estoicos foram os primeiros cosmopolitas - cidadãos do mundo. 
+    content: `Os estoicos foram os primeiros cosmopolitas - cidadãos do mundo.  
     <br><br>"Sou um cidadão do mundo" - Sócrates
-    <br><br>Este mês, reflita sobre: 
+    <br><br>Este mês, reflita sobre:  
     <br>• Nossa conexão com toda a humanidade
     <br>• A responsabilidade para com o bem comum
     <br>• Superar preconceitos e divisões artificiais
@@ -62,9 +62,9 @@ const monthlyConceptsData = {
   },
   6: {
     // Julho
-    title:  "Premeditatio Malorum",
-    content:  `A "premeditação dos males" - visualizar o que pode dar errado para estar preparado.
-    <br><br>Não é pessimismo, mas preparação mental: 
+    title: "Premeditatio Malorum",
+    content: `A "premeditação dos males" - visualizar o que pode dar errado para estar preparado.
+    <br><br>Não é pessimismo, mas preparação mental:  
     <br>• Reduz a ansiedade sobre o futuro
     <br>• Aumenta a gratidão pelo que temos
     <br>• Nos torna mais resilientes
@@ -75,7 +75,7 @@ const monthlyConceptsData = {
     // Agosto
     title: "Apatheia",
     content: `Apatheia não é "apatia", mas liberdade das paixões destrutivas.
-    <br><br>É alcançar a tranquilidade através de:
+    <br><br>É alcançar a tranquilidade através de: 
     <br>• Não ser dominado por emoções negativas
     <br>• Manter equanimidade diante dos eventos
     <br>• Responder com razão, não com reação
@@ -84,19 +84,19 @@ const monthlyConceptsData = {
   },
   8: {
     // Setembro
-    title:  "O Obstáculo é o Caminho",
-    content:  `"O impedimento à ação faz avançar a ação.  O que está no caminho se torna o caminho." - Marco Aurélio
-    <br><br>Cada obstáculo é uma oportunidade para praticar:
+    title: "O Obstáculo é o Caminho",
+    content: `"O impedimento à ação faz avançar a ação.  O que está no caminho se torna o caminho." - Marco Aurélio
+    <br><br>Cada obstáculo é uma oportunidade para praticar: 
     <br>• Paciência
     <br>• Criatividade
     <br>• Resiliência
     <br>• Virtude
-    <br><br>Este mês, transforme seus desafios em combustível para o crescimento. `
+    <br><br>Este mês, transforme seus desafios em combustível para o crescimento.`
   },
   9: {
     // Outubro
     title: "Logos - A Razão Universal",
-    content: `Os estoicos acreditavam no Logos - a razão que governa o universo.
+    content: `Os estoicos acreditavam no Logos - a razão que governa o universo. 
     <br><br>Viver de acordo com a natureza significa:
     <br>• Alinhar-se com a razão universal
     <br>• Aceitar a ordem natural das coisas
@@ -123,7 +123,7 @@ const monthlyConceptsData = {
     <br>• Que má hábito curei hoje?
     <br>• Que vício resisti?
     <br>• Em que sou melhor?
-    <br><br>Use este mês para: 
+    <br><br>Use este mês para:  
     <br>• Revisar seu progresso no caminho da virtude
     <br>• Agradecer por lições aprendidas
     <br>• Preparar-se para continuar a jornada estoica`
@@ -133,7 +133,7 @@ const monthlyConceptsData = {
 // Citações estoicas (uma para cada dia do ano)
 const stoicQuotes = [
   {
-    text: "Você tem poder sobre sua mente - não sobre eventos externos.  Perceba isso e você encontrará força.",
+    text:  "Você tem poder sobre sua mente - não sobre eventos externos.  Perceba isso e você encontrará força.",
     author: "Marco Aurélio"
   },
   {
@@ -172,9 +172,8 @@ const stoicQuotes = [
     text: "A vida é muito curta para ser desperdiçada em coisas triviais.",
     author: "Sêneca"
   },
-  // Continue com mais citações para completar 365+ dias
   {
-    text:  "As dificuldades fortalecem a mente, assim como o trabalho fortalece o corpo.",
+    text: "As dificuldades fortalecem a mente, assim como o trabalho fortalece o corpo.",
     author: "Sêneca"
   },
   {
@@ -206,7 +205,7 @@ const stoicQuotes = [
     author: "Epicteto"
   },
   {
-    text:  "Temos duas orelhas e uma boca para que possamos ouvir duas vezes mais do que falamos.",
+    text: "Temos duas orelhas e uma boca para que possamos ouvir duas vezes mais do que falamos.",
     author: "Epicteto"
   },
   {
@@ -222,7 +221,7 @@ const stoicQuotes = [
     author: "Marco Aurélio"
   },
   {
-    text:  "Aceite tudo que acontece, mesmo que pareça desagradável, porque leva a este fim:  a saúde do universo.",
+    text: "Aceite tudo que acontece, mesmo que pareça desagradável, porque leva a este fim:  a saúde do universo.",
     author: "Marco Aurélio"
   },
   {
@@ -234,7 +233,7 @@ const stoicQuotes = [
     author: "Marco Aurélio"
   },
   {
-    text: "A vida inteira do filósofo é uma preparação para a morte.",
+    text:  "A vida inteira do filósofo é uma preparação para a morte.",
     author: "Cícero"
   },
   {
@@ -256,12 +255,61 @@ const stoicQuotes = [
   {
     text:  "O maior obstáculo para viver é a expectativa, que depende de amanhã e desperdiça hoje.",
     author: "Sêneca"
+  },
+  {
+    text:  "A coisa mais difícil é nos conhecermos; a mais fácil é falar mal dos outros.",
+    author: "Tales de Mileto"
+  },
+  {
+    text: "O homem que move montanhas começa carregando pequenas pedras.",
+    author: "Confúcio"
+  },
+  {
+    text: "Não conte os dias, faça os dias contarem.",
+    author: "Muhammad Ali"
+  },
+  {
+    text: "A adversidade é o primeiro caminho para a verdade.",
+    author: "Lord Byron"
+  },
+  {
+    text: "Quem olha para fora, sonha; quem olha para dentro, desperta.",
+    author: "Carl Jung"
   }
 ];
 
 // Gerar mais citações para completar o ano
 function getQuoteForDay(dayOfYear) {
+  // Continuar ciclando as citações disponíveis
   return stoicQuotes[dayOfYear % stoicQuotes.length];
+}
+
+// Completar array de citações até 365
+while (stoicQuotes.length < 365) {
+  const fillerQuotes = [
+    {
+      text: "O sucesso não é final, o fracasso não é fatal: é a coragem de continuar que conta.",
+      author: "Winston Churchill"
+    },
+    {
+      text: "A única maneira de fazer um ótimo trabalho é amar o que você faz.",
+      author: "Steve Jobs"
+    },
+    {
+      text: "Seja você mesmo; todos os outros já foram pegos.",
+      author: "Oscar Wilde"
+    },
+    {
+      text: "O propósito da nossa vida é ser feliz.",
+      author: "Dalai Lama"
+    },
+    {
+      text: "A vida é o que acontece quando você está ocupado fazendo outros planos.",
+      author: "John Lennon"
+    }
+  ];
+  
+  stoicQuotes.push(fillerQuotes[stoicQuotes.length % fillerQuotes.length]);
 }
 
 // ===== ESTADO DA APLICAÇÃO =====
@@ -269,6 +317,7 @@ let currentMonth = 0;
 let currentYear = 2026;
 let currentDay = null;
 let userData = {};
+let autoSaveTimeout = null;
 
 // ===== INICIALIZAÇÃO =====
 document.addEventListener("DOMContentLoaded", () => {
@@ -301,13 +350,82 @@ function attachEventListeners() {
   document
     .getElementById("back-to-calendar")
     .addEventListener("click", backToCalendar);
-  document. getElementById("save-day").addEventListener("click", saveDay);
   document
     .getElementById("view-summary")
     .addEventListener("click", viewMonthlySummary);
   document
     .getElementById("close-summary")
     .addEventListener("click", closeSummary);
+
+  // Botões de salvamento individual por seção
+  document
+    .getElementById("save-gratitudes")
+    .addEventListener("click", () => saveSectionWithFeedback("gratitudes"));
+  document
+    .getElementById("save-goal")
+    .addEventListener("click", () => saveSectionWithFeedback("goal"));
+  document
+    .getElementById("save-improvements")
+    .addEventListener("click", () => saveSectionWithFeedback("improvements"));
+
+  // Auto-salvamento ao digitar (com debounce)
+  attachAutoSaveListeners();
+}
+
+function attachAutoSaveListeners() {
+  const fields = [
+    "gratitude-1",
+    "gratitude-2",
+    "gratitude-3",
+    "daily-goal",
+    "improvement-1",
+    "improvement-2",
+    "improvement-3"
+  ];
+
+  fields.forEach(fieldId => {
+    const element = document.getElementById(fieldId);
+    element.addEventListener("input", () => {
+      autoSaveWithDebounce();
+    });
+  });
+}
+
+function autoSaveWithDebounce() {
+  // Limpar timeout anterior
+  if (autoSaveTimeout) {
+    clearTimeout(autoSaveTimeout);
+  }
+
+  // Mostrar indicador de salvamento pendente
+  showSaveIndicator("saving");
+
+  // Salvar após 1 segundo de inatividade
+  autoSaveTimeout = setTimeout(() => {
+    saveCurrentDay();
+    showSaveIndicator("saved");
+    
+    // Esconder indicador após 2 segundos
+    setTimeout(() => {
+      showSaveIndicator("hidden");
+    }, 2000);
+  }, 1000);
+}
+
+function showSaveIndicator(state) {
+  const indicator = document.getElementById("auto-save-indicator");
+  
+  if (state === "saving") {
+    indicator.textContent = "💾 Salvando...";
+    indicator.className = "save-indicator saving";
+    indicator.style.display = "inline-block";
+  } else if (state === "saved") {
+    indicator.textContent = "✅ Salvo automaticamente";
+    indicator.className = "save-indicator saved";
+    indicator.style.display = "inline-block";
+  } else {
+    indicator.style.display = "none";
+  }
 }
 
 function changeMonth(direction) {
@@ -357,7 +475,7 @@ function renderMonthView() {
 
   // Renderizar conceito estoico do mês
   const concept = monthlyConceptsData[currentMonth];
-  document. getElementById("concept-title").textContent = concept.title;
+  document.getElementById("concept-title").textContent = concept.title;
   document.getElementById("concept-content").innerHTML = concept.content;
 
   // Renderizar calendário
@@ -392,15 +510,58 @@ function renderCalendar() {
   for (let day = 1; day <= daysInMonth; day++) {
     const dayCell = document.createElement("div");
     dayCell.className = "calendar-day";
-    dayCell.textContent = day;
+    
+    // Número do dia
+    const dayNumber = document.createElement("div");
+    dayNumber.className = "day-number";
+    dayNumber. textContent = day;
+    dayCell.appendChild(dayNumber);
 
     // Verificar se há dados salvos para este dia
     const dateKey = `${currentYear}-${String(currentMonth + 1).padStart(
       2,
       "0"
     )}-${String(day).padStart(2, "0")}`;
-    if (userData[dateKey] && Object.keys(userData[dateKey]).length > 0) {
-      dayCell.classList.add("has-data");
+    
+    if (userData[dateKey]) {
+      const dayData = userData[dateKey];
+      const indicators = document.createElement("div");
+      indicators.className = "day-indicators";
+      
+      // Verificar quais seções estão preenchidas
+      const hasGratitudes = dayData.gratitude1 || dayData.gratitude2 || dayData.gratitude3;
+      const hasGoal = dayData.goal;
+      const hasImprovements = dayData.improvement1 || dayData.improvement2 || dayData.improvement3;
+      
+      if (hasGratitudes) {
+        const gratitudeIcon = document.createElement("span");
+        gratitudeIcon. className = "indicator gratitude";
+        gratitudeIcon.textContent = "🙏";
+        gratitudeIcon.title = "Gratidões preenchidas";
+        indicators.appendChild(gratitudeIcon);
+      }
+      
+      if (hasGoal) {
+        const goalIcon = document.createElement("span");
+        goalIcon.className = "indicator goal";
+        goalIcon. textContent = "🎯";
+        goalIcon.title = "Objetivo definido";
+        indicators.appendChild(goalIcon);
+      }
+      
+      if (hasImprovements) {
+        const improvementIcon = document.createElement("span");
+        improvementIcon.className = "indicator improvement";
+        improvementIcon.textContent = "🌱";
+        improvementIcon. title = "Melhorias anotadas";
+        indicators.appendChild(improvementIcon);
+      }
+      
+      dayCell.appendChild(indicators);
+      
+      if (hasGratitudes || hasGoal || hasImprovements) {
+        dayCell.classList.add("has-data");
+      }
     }
 
     // Marcar dia atual
@@ -457,11 +618,14 @@ function openDay(day) {
   // Citação do dia
   const dayOfYear = getDayOfYear(date);
   const quote = getQuoteForDay(dayOfYear);
-  document.getElementById("daily-quote-text").textContent = `"${quote.text}"`;
+  document.getElementById("daily-quote-text").textContent = `"${quote. text}"`;
   document.getElementById("daily-quote-author").textContent = `— ${quote.author}`;
 
   // Carregar dados salvos
   loadDayData(day);
+  
+  // Esconder indicador de salvamento
+  showSaveIndicator("hidden");
 }
 
 function getDayOfYear(date) {
@@ -487,34 +651,105 @@ function loadDayData(day) {
   document.getElementById("daily-goal").value = dayData.goal || "";
 
   // Carregar melhorias
-  document.getElementById("improvement-1").value = dayData.improvement1 || "";
+  document. getElementById("improvement-1").value = dayData.improvement1 || "";
   document.getElementById("improvement-2").value = dayData.improvement2 || "";
-  document.getElementById("improvement-3").value = dayData.improvement3 || "";
+  document. getElementById("improvement-3").value = dayData.improvement3 || "";
+  
+  // Atualizar timestamps de seção se existirem
+  updateSectionTimestamps(dayData);
 }
 
-function saveDay() {
+function updateSectionTimestamps(dayData) {
+  if (dayData.gratitudesSavedAt) {
+    document.getElementById("gratitudes-timestamp").textContent = 
+      `Salvo às ${formatTime(dayData.gratitudesSavedAt)}`;
+  } else {
+    document.getElementById("gratitudes-timestamp").textContent = "";
+  }
+  
+  if (dayData. goalSavedAt) {
+    document.getElementById("goal-timestamp").textContent = 
+      `Salvo às ${formatTime(dayData.goalSavedAt)}`;
+  } else {
+    document.getElementById("goal-timestamp").textContent = "";
+  }
+  
+  if (dayData.improvementsSavedAt) {
+    document.getElementById("improvements-timestamp").textContent = 
+      `Salvo às ${formatTime(dayData.improvementsSavedAt)}`;
+  } else {
+    document.getElementById("improvements-timestamp").textContent = "";
+  }
+}
+
+function formatTime(isoString) {
+  const date = new Date(isoString);
+  return date.toLocaleTimeString("pt-BR", { hour: "2-digit", minute:  "2-digit" });
+}
+
+// ===== SALVAMENTO POR SEÇÃO =====
+function saveSectionWithFeedback(section) {
+  saveCurrentDay(section);
+  
+  const button = document.getElementById(`save-${section}`);
+  const originalText = button.textContent;
+  button.textContent = "✅ Salvo! ";
+  button.style.backgroundColor = "#27ae60";
+  
+  setTimeout(() => {
+    button.textContent = originalText;
+    button.style.backgroundColor = "";
+  }, 2000);
+}
+
+function saveCurrentDay(specificSection = null) {
+  if (! currentDay) return;
+
   const dateKey = `${currentYear}-${String(currentMonth + 1).padStart(
     2,
     "0"
   )}-${String(currentDay).padStart(2, "0")}`;
 
-  userData[dateKey] = {
-    gratitude1: document.getElementById("gratitude-1").value,
-    gratitude2: document.getElementById("gratitude-2").value,
-    gratitude3: document. getElementById("gratitude-3").value,
-    goal: document.getElementById("daily-goal").value,
-    improvement1: document.getElementById("improvement-1").value,
-    improvement2: document.getElementById("improvement-2").value,
-    improvement3: document.getElementById("improvement-3").value,
-    timestamp: new Date().toISOString()
-  };
+  // Carregar dados existentes ou criar novo objeto
+  const existingData = userData[dateKey] || {};
+  const timestamp = new Date().toISOString();
 
+  // Se uma seção específica foi solicitada, salvar apenas ela
+  if (specificSection === "gratitudes") {
+    existingData.gratitude1 = document.getElementById("gratitude-1").value;
+    existingData.gratitude2 = document. getElementById("gratitude-2").value;
+    existingData.gratitude3 = document.getElementById("gratitude-3").value;
+    existingData.gratitudesSavedAt = timestamp;
+  } else if (specificSection === "goal") {
+    existingData.goal = document.getElementById("daily-goal").value;
+    existingData. goalSavedAt = timestamp;
+  } else if (specificSection === "improvements") {
+    existingData.improvement1 = document.getElementById("improvement-1").value;
+    existingData.improvement2 = document.getElementById("improvement-2").value;
+    existingData.improvement3 = document.getElementById("improvement-3").value;
+    existingData.improvementsSavedAt = timestamp;
+  } else {
+    // Salvar tudo (auto-save ou salvamento geral)
+    existingData.gratitude1 = document.getElementById("gratitude-1").value;
+    existingData.gratitude2 = document. getElementById("gratitude-2").value;
+    existingData.gratitude3 = document.getElementById("gratitude-3").value;
+    existingData.goal = document.getElementById("daily-goal").value;
+    existingData.improvement1 = document.getElementById("improvement-1").value;
+    existingData.improvement2 = document.getElementById("improvement-2").value;
+    existingData.improvement3 = document.getElementById("improvement-3").value;
+    existingData.lastAutoSave = timestamp;
+  }
+
+  userData[dateKey] = existingData;
   saveUserData();
-  alert("✅ Dia salvo com sucesso!");
-  backToCalendar();
+  
+  // Atualizar timestamps na interface
+  updateSectionTimestamps(existingData);
 }
 
 function backToCalendar() {
+  // Salvar antes de voltar
+  saveCurrentDay();
   showSection("calendar-view");
   renderCalendar(); // Atualizar para mostrar dias com dados
 }
@@ -543,10 +778,10 @@ function viewMonthlySummary() {
     if (dayData) {
       // Gratidões
       [dayData.gratitude1, dayData.gratitude2, dayData. gratitude3].forEach(
-        gratitude => {
+        (gratitude, index) => {
           if (gratitude && gratitude.trim()) {
             const li = document.createElement("li");
-            li.textContent = `Dia ${day}: ${gratitude}`;
+            li.innerHTML = `<strong>Dia ${day}</strong>: ${gratitude}`;
             gratitudesList.appendChild(li);
             gratitudesCount++;
           }
@@ -558,10 +793,10 @@ function viewMonthlySummary() {
         dayData.improvement1,
         dayData.improvement2,
         dayData.improvement3
-      ].forEach(improvement => {
-        if (improvement && improvement. trim()) {
+      ].forEach((improvement, index) => {
+        if (improvement && improvement.trim()) {
           const li = document.createElement("li");
-          li.textContent = `Dia ${day}: ${improvement}`;
+          li.innerHTML = `<strong>Dia ${day}</strong>: ${improvement}`;
           improvementsList.appendChild(li);
           improvementsCount++;
         }
@@ -629,59 +864,4 @@ function showSection(sectionId) {
   // Mostrar/ocultar footer
   const footer = document.querySelector("footer");
   footer.style.display = sectionId === "calendar-view" ? "block" : "none";
-}
-
-// ===== EXPANDIR LISTA DE CITAÇÕES =====
-// Adicionar mais citações ao array stoicQuotes para cobrir 365 dias
-const additionalQuotes = [
-  {
-    text: "A coisa mais difícil é nos conhecermos; a mais fácil é falar mal dos outros.",
-    author: "Tales de Mileto"
-  },
-  {
-    text: "O homem que move montanhas começa carregando pequenas pedras.",
-    author: "Confúcio"
-  },
-  {
-    text: "Não conte os dias, faça os dias contarem.",
-    author: "Muhammad Ali"
-  },
-  {
-    text: "A adversidade é o primeiro caminho para a verdade.",
-    author: "Lord Byron"
-  },
-  {
-    text: "Quem olha para fora, sonha; quem olha para dentro, desperta.",
-    author: "Carl Jung"
-  },
-  {
-    text: "O sucesso não é final, o fracasso não é fatal: é a coragem de continuar que conta.",
-    author: "Winston Churchill"
-  },
-  {
-    text: "A única maneira de fazer um ótimo trabalho é amar o que você faz.",
-    author: "Steve Jobs"
-  },
-  {
-    text: "Seja você mesmo; todos os outros já foram pegos.",
-    author: "Oscar Wilde"
-  },
-  {
-    text: "Dois caminhos divergiam em um bosque, e eu - eu peguei o menos percorrido, e isso fez toda a diferença.",
-    author: "Robert Frost"
-  },
-  {
-    text: "O propósito da nossa vida é ser feliz.",
-    author: "Dalai Lama"
-  }
-];
-
-stoicQuotes.push(...additionalQuotes);
-
-// Adicionar mais citações conforme necessário para completar 365
-while (stoicQuotes.length < 365) {
-  stoicQuotes.push({
-    text: "A vida é o que acontece quando você está ocupado fazendo outros planos.",
-    author: "John Lennon"
-  });
 }

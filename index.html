@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<! DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agenda Estoica 2026</title>
+    <title>Agenda 2026</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>📖 Agenda Estoica 2026</h1>
-        <p class="subtitle">Estoicismo Diario</p>
+        <h1>📖 Agenda 2026</h1>
+        <p class="subtitle">Sabedoria Diária</p>
       </header>
 
       <nav class="main-nav">
@@ -49,11 +49,6 @@
         </div>
       </section>
 
-      <!-- Calendário do Mês -->
-      <section id="calendar-view" class="calendar-view">
-        <div id="calendar-grid" class="calendar-grid"></div>
-      </section>
-
       <!-- Visualização do Dia -->
       <section id="day-view" class="day-view" style="display: none">
         <div class="day-card">
@@ -62,6 +57,7 @@
               ← Voltar ao Calendário
             </button>
             <h2 id="day-title"></h2>
+            <span id="auto-save-indicator" class="save-indicator"></span>
           </div>
 
           <!-- Citação Estoica do Dia -->
@@ -70,9 +66,15 @@
             <cite id="daily-quote-author"></cite>
           </div>
 
-          <!-- Manhã: Gratidão -->
+          <!-- Manhã:  Gratidão -->
           <div class="section morning-section">
-            <h3>🌅 Manhã - Três Motivos de Gratidão</h3>
+            <div class="section-header">
+              <h3>🌅 Manhã - Sou grato por...</h3>
+              <div class="section-controls">
+                <span id="gratitudes-timestamp" class="timestamp"></span>
+                <button id="save-gratitudes" class="btn-save-section">💾 Salvar Gratidões</button>
+              </div>
+            </div>
             <div class="input-group">
               <textarea
                 id="gratitude-1"
@@ -91,7 +93,13 @@
 
           <!-- Alvo Diário -->
           <div class="section goal-section">
-            <h3>🎯 Alvo Diário</h3>
+            <div class="section-header">
+              <h3>🎯 Alvo Diário</h3>
+              <div class="section-controls">
+                <span id="goal-timestamp" class="timestamp"></span>
+                <button id="save-goal" class="btn-save-section">💾 Salvar Objetivo</button>
+              </div>
+            </div>
             <textarea
               id="daily-goal"
               placeholder="Qual é o seu objetivo principal para hoje?"
@@ -100,7 +108,13 @@
 
           <!-- Noite: Melhorias -->
           <div class="section evening-section">
-            <h3>🌙 Noite - Três Pontos para Melhorar</h3>
+            <div class="section-header">
+              <h3>🌙 Noite - Três Pontos para Melhorar</h3>
+              <div class="section-controls">
+                <span id="improvements-timestamp" class="timestamp"></span>
+                <button id="save-improvements" class="btn-save-section">💾 Salvar Melhorias</button>
+              </div>
+            </div>
             <div class="input-group">
               <textarea
                 id="improvement-1"
@@ -116,9 +130,12 @@
               ></textarea>
             </div>
           </div>
-
-          <button id="save-day" class="btn-primary">💾 Salvar Dia</button>
         </div>
+      </section>
+
+      <!-- Calendário do Mês -->
+      <section id="calendar-view" class="calendar-view">
+        <div id="calendar-grid" class="calendar-grid"></div>
       </section>
 
       <footer>
